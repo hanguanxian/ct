@@ -1,0 +1,30 @@
+<link rel="stylesheet" type="text/css" href="/assets/demo2/demo2.css">
+<div class="ta">
+    <textarea spellcheck="false" class="textarea"></textarea>
+</div>
+<div id="rhs">
+  <div id="code">
+    <span id="secondhalf"> </span>
+  </div>
+</div>
+<script src="http://yandex.st/highlightjs/8.0/highlight.min.js"></script>
+<script src="/assets/jquery.js"></script>
+<script type="text/javascript" src="/assets/demo2/jquery.typetype.min.js"></script>
+<script type="text/javascript">
+$(function(){
+
+  hljs.configure({languages:['js']})
+  hljs.highlightBlock($('#code')[0])
+
+  $('.textarea').focus()
+    .typetype("改变，永远不嫌晚!", {
+      callback: function() {
+        $('body').addClass('reveal')
+      }
+    }).delay(1500)
+    .typetype("\n\n无论你是几岁，也无论你目前所处的境况有多糟...").delay(1500)
+    .typetype("\n\n只要立定目标、一步一步往前走，人生随时都有翻盘的可能性!")
+
+})
+</script>
+
