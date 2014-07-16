@@ -288,3 +288,11 @@ items should be rotated by x, minus (sum of angles - 180)2s (for this demo) */
     width: 3em;
   }
 }
+
+
+
+.my-hearts {
+    margin: 0 auto;
+    padding: 25px 0;
+    width: 47%;
+}

@@ -4,12 +4,25 @@
   <title>Mydemo</title>
   <link rel="stylesheet" type="text/css" href="/assets/normalize.css" />
   <link rel="stylesheet" type="text/css" href="/assets/mystyle.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/font-awesome.min.css" />
   <script src="/assets/modernizr-2.6.2.min.js"></script>
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <div class="my-hearts">
+    <i class="fa fa-heart-o fa-3x"></i>
+    <i class="fa fa-heart-o fa-5x"></i>
+    <i class="fa fa-heart-o fa-3x"></i>
+    <i class="fa fa-heart-o fa-5x"></i>
+    <i class="fa fa-heart-o fa-3x"></i>
+    <i class="fa fa-heart-o fa-5x"></i>
+    <i class="fa fa-heart-o fa-3x"></i>
+    <i class="fa fa-heart-o fa-5x"></i>
+    <i class="fa fa-heart-o fa-3x"></i>
+  </div>
 
-<%= yield %>
+    <%= yield %>
+
 	<div class="component">
 		<!-- Start Nav Structure -->
 		<button class="cn-button" id="cn-button">+</button>
