@@ -2,9 +2,9 @@
 <html lang="en" class="no-js">
 <head>
   <title>Mydemo</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <link rel="stylesheet" type="text/css" href="/assets/bottom.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/mystyle.css" />
+  <script src="/assets/modernizr-2.6.2.min.js"></script>
   <%= csrf_meta_tags %>
 </head>
 <body>
@@ -25,7 +25,7 @@
 		<div id="cn-overlay" class="cn-overlay"></div>
 		<!-- End Nav Structure -->
 	</div>  
-	<%= javascript_include_tag "mydemo" %>
-	<%= javascript_include_tag "polyfills" %>
+	<script src="/assets/mydemo.js" data-turbolinks-track="true"></script>
+	<script src="/assets/polyfills.js"></script>
 </body>
 </html>
