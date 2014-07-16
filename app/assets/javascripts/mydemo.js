@@ -40,3 +40,15 @@
 
 })();
 
+$(document).ready(function() {
+  $("#container").jCarouselLite({　　
+    // btnNext: ".next",
+    // btnPrev: ".prev",
+    scroll: 1,
+    visible: 1,
+    auto: 33,
+    speed: 33, 
+    vertical: false
+    });
+ 
+  });

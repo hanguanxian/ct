@@ -9,17 +9,6 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <div class="my-hearts">
-    <i class="fa fa-heart-o fa-3x"></i>
-    <i class="fa fa-heart-o fa-5x"></i>
-    <i class="fa fa-heart-o fa-3x"></i>
-    <i class="fa fa-heart-o fa-5x"></i>
-    <i class="fa fa-heart-o fa-3x"></i>
-    <i class="fa fa-heart-o fa-5x"></i>
-    <i class="fa fa-heart-o fa-3x"></i>
-    <i class="fa fa-heart-o fa-5x"></i>
-    <i class="fa fa-heart-o fa-3x"></i>
-  </div>
 
     <%= yield %>
 
@@ -28,17 +17,31 @@
 		<button class="cn-button" id="cn-button">+</button>
 		<div class="cn-wrapper" id="cn-wrapper">
 		    <ul>
-		      <li><a href="/welcome/index"><span class="icon-picture">1</span></a></li>
-		      <li><a href="/welcome/index2"><span class="icon-headphones">2</span></a></li>
-		      <li><a href="#"><span class="icon-home">3</span></a></li>
-		      <li><a href="#"><span class="icon-facetime-video">4</span></a></li>
-		      <li><a href="#"><span class="icon-envelope-alt">5</span></a></li>
+		      <li>
+		      	<a href="/welcome/index">
+		      		<span class="icon-picture"><i class="fa fa-home fa-fw"></i></span>
+		      	</a>
+		      </li>
+		      <li>
+		      	<a href="/welcome/index2"><span class="icon-headphones"><i class="fa fa-flag"></i></span></a>
+		      </li>
+		      <li>
+		      	<a href="#"><span class="icon-home"><i class="fa fa-life-ring"></i></span></a>
+		      </li>
+		      <li>
+		      	<a href="#"><span class="icon-facetime-video"><i class="fa fa-envelope"></i></span></a>
+		      </li>
+		      <li>
+		      	<a href="#"><span class="icon-envelope-alt"><i class="fa fa-fighter-jet"></i></span></a>
+		      </li>
 		    </ul>
 		</div>
 		<div id="cn-overlay" class="cn-overlay"></div>
 		<!-- End Nav Structure -->
 	</div>  
+	<script src="/assets/ripple.js"></script>
 	<script src="/assets/mydemo.js" data-turbolinks-track="true"></script>
 	<script src="/assets/polyfills.js"></script>
 </body>
 </html>
+

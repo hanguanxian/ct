@@ -290,6 +290,9 @@ items should be rotated by x, minus (sum of angles - 180)2s (for this demo) */
 }
 
 
+.index_ad {
+    margin: 0 auto;
+}
 
 .my-hearts {
     margin: 0 auto;
