@@ -1,0 +1,22 @@
+body {
+	background: #E9E5DA;
+	color: #383433;
+}
+
+.mycenter {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.top-prev {
+  display: block;
+  float: left;
+  cursor: pointer;
+}
+
+.top-next {
+  display: block;
+  float: right;
+  cursor: pointer;
+}
+

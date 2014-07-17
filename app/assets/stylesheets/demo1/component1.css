@@ -1,6 +1,16 @@
+body {
+	background: #f06060;
+}
+
 .content {
     margin: 0 auto;
     width: 75%;
+}
+
+.my-hearts {
+    margin: 0 auto;
+    padding: 25px 0;
+    width: 45%;
 }
 
 .grid {

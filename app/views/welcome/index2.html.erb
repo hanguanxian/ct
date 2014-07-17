@@ -2,11 +2,7 @@
 <div class="ta">
     <textarea spellcheck="false" class="textarea"></textarea>
 </div>
-<div id="rhs">
-  <div id="code">
-    <span id="secondhalf"> </span>
-  </div>
-</div>
+
 <script src="http://yandex.st/highlightjs/8.0/highlight.min.js"></script>
 <script src="/assets/jquery.js"></script>
 <script type="text/javascript" src="/assets/demo2/jquery.typetype.min.js"></script>
@@ -14,7 +10,6 @@
 $(function(){
 
   hljs.configure({languages:['js']})
-  hljs.highlightBlock($('#code')[0])
 
   $('.textarea').focus()
     .typetype("改变，永远不嫌晚!", {
